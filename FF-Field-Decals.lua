@@ -48,16 +48,16 @@ endZoneTwo.Text = ""
 
 
 -- TEAM ONE ENDZONE COLOR + LOGO
-endZone1Grass.BrickColor = BrickColor.new (Color3.fromHex("#1d60be"))
+endZone1Grass.BrickColor = BrickColor.new (Color3.fromHex("#134583"))
 endZoneOneDecal.Face = 1
-endZoneOneDecal.Texture = "rbxassetid://8261367689"
+endZoneOneDecal.Texture = "rbxassetid://8380312876"
 
 
 
 -- TEAM Two ENDZONE COLOR + LOGO
-endZone2Grass.BrickColor = BrickColor.new (Color3.fromHex("#fb4f14"))
+endZone2Grass.BrickColor = BrickColor.new (Color3.fromHex("#000000"))
 endZoneTwoDecal.Face = 1
-endZoneTwoDecal.Texture = "rbxassetid://8275278583"
+endZoneTwoDecal.Texture = "rbxassetid://8380329001"
 
 
 
