@@ -1232,9 +1232,9 @@ endZoneTwo.Text = ""
 
 
 -- TEAM ONE ENDZONE COLOR + LOGO
-endZone1Grass.BrickColor = BrickColor.new (Color3.fromHex("#1d60be"))
+endZone1Grass.BrickColor = BrickColor.new (Color3.fromHex("#422de2"))
 endZoneOneDecal.Face = 1
-endZoneOneDecal.Texture = "rbxassetid://8261367689"
+endZoneOneDecal.Texture = "rbxassetid://8254124964"
 
 
 
