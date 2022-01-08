@@ -1315,7 +1315,7 @@ endZoneTwoDecal.Texture = "rbxassetid://8247748283"
 
 
 
-middleLogo.Image = "rbxassetid://8239335401"
+middleLogo.Image = "rbxassetid://8482375333"
 middleLogo.ImageTransparency = 0
 
 
@@ -1324,8 +1324,8 @@ fieldLogoPart1.Anchored = true
 fieldLogoPart1.Size = Vector3.new(22, 0.114, 19)
 fieldLogoPart1.Rotation = Vector3.new(0, -90, 0)
 fieldLogoPart1.Transparency = 1
-fieldLogoDecal1.Face = 3
-fieldLogoDecal1.Texture = "rbxassetid://8239467535"
+fieldLogoDecal1.Face = 1
+fieldLogoDecal1.Texture = "rbxassetid://8482556856"
 
 
 fieldLogoPart2.Position = Vector3.new(62, 3.107, 75)
@@ -1333,5 +1333,29 @@ fieldLogoPart2.Anchored = true
 fieldLogoPart2.Size = Vector3.new(22, 0.114, 19)
 fieldLogoPart2.Rotation = Vector3.new(0, -90, 0)
 fieldLogoPart2.Transparency = 1
-fieldLogoDecal2.Face = 3
-fieldLogoDecal2.Texture = "rbxassetid://8239467535"
+fieldLogoDecal2.Face = 1
+fieldLogoDecal2.Texture = "rbxassetid://8482699367"
+
+for index, value in ipairs(game:GetService("Workspace").Models.Stadium.Seats:GetChildren()) do
+    if value:IsA("BasePart") then
+        value.BrickColor = BrickColor.new (Color3.fromHex("#000000"))
+end
+end
+
+for index, value in ipairs(game:GetService("Workspace").Models.Stadium.PressSeats:GetChildren()) do
+    if value:IsA("BasePart") then
+        value.BrickColor = BrickColor.new (Color3.fromHex("#EECC6A"))
+end
+end
+
+for index, value in ipairs(game:GetService("Workspace").Models.Stadium.Barrier.PrimaryPads:GetChildren()) do
+    if value:IsA("BasePart") then
+        value.BrickColor = BrickColor.new (Color3.fromHex("#EECC6A"))
+end
+end
+
+for index, value in ipairs(game:GetService("Workspace").Models.Stadium.Barrier.SecondaryPads:GetChildren()) do
+    if value:IsA("BasePart") then
+        value.BrickColor = BrickColor.new (Color3.fromHex("#EECC6A"))
+end
+end
