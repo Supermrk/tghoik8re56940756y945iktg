@@ -48,16 +48,16 @@ endZoneTwo.Text = ""
 
 
 -- TEAM ONE ENDZONE COLOR + LOGO
-endZone1Grass.BrickColor = BrickColor.new (Color3.fromHex("#422de2"))
+endZone1Grass.BrickColor = BrickColor.new (Color3.fromHex("#0574ea"))
 endZoneOneDecal.Face = 1
-endZoneOneDecal.Texture = "rbxassetid://8254124964"
+endZoneOneDecal.Texture = "rbxassetid://8580707336"
 
 
 
 -- TEAM Two ENDZONE COLOR + LOGO
-endZone2Grass.BrickColor = BrickColor.new (Color3.fromHex("#005db4"))
+endZone2Grass.BrickColor = BrickColor.new (Color3.fromHex("#00aeff"))
 endZoneTwoDecal.Face = 1
-endZoneTwoDecal.Texture = "rbxassetid://8540182515"
+endZoneTwoDecal.Texture = "rbxassetid://8580712259"
 
 
 
@@ -105,24 +105,24 @@ local mainTeamTouchdown
 
 
 -- TEAM IDLE IMAGE
-local idle1Image = "rbxassetid://8540141847"
-local idle2Image = "rbxassetid://8520838380"
+local idle1Image = "rbxassetid://8523813944"
+local idle2Image = "rbxassetid://8571762280"
 
 -- TEAM FIRST DOWN SPRITESHEET
-local team1FirstDown = "rbxassetid://8540129076"
-local team2FirstDown = "rbxassetid://8523871260"
+local team1FirstDown = "rbxassetid://8523871260"
+local team2FirstDown = "rbxassetid://8571766728"
 
-local team1SecondDown = "rbxassetid://8540136613"
-local team2SecondDown = "rbxassetid://8523875651"
+local team1SecondDown = "rbxassetid://8523875651"
+local team2SecondDown = "rbxassetid://8571772055"
 
-local team1ThirdDown = "rbxassetid://8540146010"
-local team2ThirdDown = "rbxassetid://8523880371"
+local team1ThirdDown = "rbxassetid://8523880371"
+local team2ThirdDown = "rbxassetid://8571775955"
 
-local team1FourthDown = "rbxassetid://8540150333"
-local team2FourthDown = "rbxassetid://8523884386"
+local team1FourthDown = "rbxassetid://8523884386"
+local team2FourthDown = "rbxassetid://8571781542"
 
-local team1Touchdown = "rbxassetid://8540158890"
-local team2Touchdown = "rbxassetid://8523888695"
+local team1Touchdown = "rbxassetid://8523888695"
+local team2Touchdown = "rbxassetid://8571786674"
 
 
 mainIdleImage = idle1Image
