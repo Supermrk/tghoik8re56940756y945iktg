@@ -48,16 +48,16 @@ endZoneTwo.Text = ""
 
 
 -- TEAM ONE ENDZONE COLOR + LOGO
-endZone1Grass.BrickColor = BrickColor.new (Color3.fromHex("#004696"))
+endZone1Grass.BrickColor = BrickColor.new (Color3.fromHex("#134583"))
 endZoneOneDecal.Face = 1
-endZoneOneDecal.Texture = "rbxassetid://8588253026"
+endZoneOneDecal.Texture = "rbxassetid://8380312876"
 
 
 
 -- TEAM Two ENDZONE COLOR + LOGO
-endZone2Grass.BrickColor = BrickColor.new (Color3.fromHex("#287f47"))
+endZone2Grass.BrickColor = BrickColor.new (Color3.fromHex("#422de2"))
 endZoneTwoDecal.Face = 1
-endZoneTwoDecal.Texture = "rbxassetid://8588259583"
+endZoneTwoDecal.Texture = "rbxassetid://8254124964"
 
 
 
@@ -105,24 +105,24 @@ local mainTeamTouchdown
 
 
 -- TEAM IDLE IMAGE
-local idle1Image = "rbxassetid://8588136302"
-local idle2Image = "rbxassetid://8588185321"
+local idle1Image = "http://www.roblox.com/asset/?id=8540141824"
+local idle2Image = "rbxassetid://8588156046"
 
 -- TEAM FIRST DOWN SPRITESHEET
-local team1FirstDown = "rbxassetid://8588141849"
-local team2FirstDown = "rbxassetid://8588188176"
+local team1FirstDown = "http://www.roblox.com/asset/?id=8540129070"
+local team2FirstDown = "rbxassetid://8588158954"
 
-local team1SecondDown = "rbxassetid://8588145039"
-local team2SecondDown = "rbxassetid://8588190431"
+local team1SecondDown = "http://www.roblox.com/asset/?id=8540136600"
+local team2SecondDown = "rbxassetid://8588165340"
 
-local team1ThirdDown = "rbxassetid://8588147928"
-local team2ThirdDown = "rbxassetid://8588193610"
+local team1ThirdDown = "http://www.roblox.com/asset/?id=8540145996"
+local team2ThirdDown = "rbxassetid://8588167693"
 
-local team1FourthDown = "rbxassetid://8588151095"
-local team2FourthDown = "rbxassetid://8588196412"
+local team1FourthDown = "http://www.roblox.com/asset/?id=8540150324"
+local team2FourthDown = "rbxassetid://8588170172"
 
-local team1Touchdown = "rbxassetid://8588154261"
-local team2Touchdown = "rbxassetid://8588199580"
+local team1Touchdown = "http://www.roblox.com/asset/?id=8540158877"
+local team2Touchdown = "rbxassetid://8588182647"
 
 
 mainIdleImage = idle1Image
