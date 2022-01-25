@@ -48,16 +48,16 @@ endZoneTwo.Text = ""
 
 
 -- TEAM ONE ENDZONE COLOR + LOGO
-endZone1Grass.BrickColor = BrickColor.new (Color3.fromHex("#287f47"))
+endZone1Grass.BrickColor = BrickColor.new (Color3.fromHex("#422de2"))
 endZoneOneDecal.Face = 1
-endZoneOneDecal.Texture = "rbxassetid://8626631392"
+endZoneOneDecal.Texture = "rbxassetid://8254124964"
 
 
 
 -- TEAM Two ENDZONE COLOR + LOGO
-endZone2Grass.BrickColor = BrickColor.new (Color3.fromHex("#287f47"))
+endZone2Grass.BrickColor = BrickColor.new (Color3.fromHex("#111111"))
 endZoneTwoDecal.Face = 1
-endZoneTwoDecal.Texture = "rbxassetid://8626635590"
+endZoneTwoDecal.Texture = "rbxassetid://8261371661"
 
 
 
@@ -105,24 +105,24 @@ local mainTeamTouchdown
 
 
 -- TEAM IDLE IMAGE
-local idle1Image = "rbxassetid://8626573905"
-local idle2Image = "rbxassetid://8588185321"
+local idle1Image = "rbxassetid://8571762280"
+local idle2Image = "http://www.roblox.com/asset/?id=8540141824"
 
 -- TEAM FIRST DOWN SPRITESHEET
-local team1FirstDown = "rbxassetid://8626576144"
-local team2FirstDown = "rbxassetid://8588188176"
+local team1FirstDown = "rbxassetid://8571766728"
+local team2FirstDown = "http://www.roblox.com/asset/?id=8540129070"
 
-local team1SecondDown = "rbxassetid://8626578725"
-local team2SecondDown = "rbxassetid://8588190431"
+local team1SecondDown = "rbxassetid://8571772055"
+local team2SecondDown = "http://www.roblox.com/asset/?id=8540136600"
 
-local team1ThirdDown = "rbxassetid://8626580501"
-local team2ThirdDown = "rbxassetid://8588193610"
+local team1ThirdDown = "rbxassetid://8571775955"
+local team2ThirdDown = "http://www.roblox.com/asset/?id=8540145996"
 
-local team1FourthDown = "rbxassetid://8626583806"
-local team2FourthDown = "rbxassetid://8588196412"
+local team1FourthDown = "rbxassetid://8571781542"
+local team2FourthDown = "http://www.roblox.com/asset/?id=8540150324"
 
-local team1Touchdown = "rbxassetid://8626585944"
-local team2Touchdown = "rbxassetid://8588199580"
+local team1Touchdown = "rbxassetid://8571786674"
+local team2Touchdown = "http://www.roblox.com/asset/?id=8540158877"
 
 
 mainIdleImage = idle1Image
