@@ -3,7 +3,7 @@ local endZone1Grass = game:GetService("Workspace").Models.Field.Grass.Endzone.On
 local endZoneOneDecal = Instance.new("Decal",endZone1Grass)
 local endZoneTwo = game:GetService("Workspace").Models.Field.Grass.Endzone.Two.SurfaceGui.TextLabel
 local endZone2Grass = game:GetService("Workspace").Models.Field.Grass.Endzone.Two
-local endZoneTwoDecal = Instance.new("Decal",endZone2Grass)
+ endZoneTwoDecal = Instance.new("Decal",endZone2Grass)
 local middleLogo = game:GetService("Workspace").Models.Field.Grass.Normal.Mid.SurfaceGui.ImageLabel
 local fieldLogoPart1 = Instance.new("Part",game:GetService("Workspace"))
 local fieldLogoDecal1 = Instance.new("Decal",fieldLogoPart1)
@@ -48,16 +48,16 @@ endZoneTwo.Text = ""
 
 
 -- TEAM ONE ENDZONE COLOR + LOGO
-endZone1Grass.BrickColor = BrickColor.new (Color3.fromHex("#111111"))
+endZone1Grass.BrickColor = BrickColor.new (Color3.fromHex("#422de2"))
 endZoneOneDecal.Face = 1
-endZoneOneDecal.Texture = "rbxassetid://8261371661"
+endZoneOneDecal.Texture = "rbxassetid://8254124964"
 
 
 
 -- TEAM Two ENDZONE COLOR + LOGO
-endZone2Grass.BrickColor = BrickColor.new (Color3.fromHex("#004696"))
+endZone2Grass.BrickColor = BrickColor.new (Color3.fromHex("#005db4"))
 endZoneTwoDecal.Face = 1
-endZoneTwoDecal.Texture = "rbxassetid://8588253026"
+endZoneTwoDecal.Texture = "rbxassetid://8540182515"
 
 
 
@@ -105,23 +105,23 @@ local mainTeamTouchdown
 
 
 -- TEAM IDLE IMAGE
-local idle1Image = "rbxassetid://8571762280"
+local idle1Image = "http://www.roblox.com/asset/?id=8540141824"
 local idle2Image = "rbxassetid://8588185321"
 
 -- TEAM FIRST DOWN SPRITESHEET
-local team1FirstDown = "rbxassetid://8571766728"
+local team1FirstDown = "http://www.roblox.com/asset/?id=8540129070"
 local team2FirstDown = "rbxassetid://8588188176"
 
-local team1SecondDown = "rbxassetid://8571772055"
+local team1SecondDown = "http://www.roblox.com/asset/?id=8540136600"
 local team2SecondDown = "rbxassetid://8588190431"
 
-local team1ThirdDown = "rbxassetid://8571775955"
+local team1ThirdDown = "http://www.roblox.com/asset/?id=8540145996"
 local team2ThirdDown = "rbxassetid://8588193610"
 
-local team1FourthDown = "rbxassetid://8571781542"
+local team1FourthDown = "http://www.roblox.com/asset/?id=8540150324"
 local team2FourthDown = "rbxassetid://8588196412"
 
-local team1Touchdown = "rbxassetid://8571786674"
+local team1Touchdown = "http://www.roblox.com/asset/?id=8540158877"
 local team2Touchdown = "rbxassetid://8588199580"
 
 
