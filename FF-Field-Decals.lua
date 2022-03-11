@@ -1,9 +1,7 @@
-local endZoneOne = game:GetService("Workspace").Models.Field.Grass.Endzone.One.SurfaceGui.TextLabel
 local endZone1Grass = game:GetService("Workspace").Models.Field.Grass.Endzone.One
 local endZoneOneDecal = Instance.new("Decal",endZone1Grass)
-local endZoneTwo = game:GetService("Workspace").Models.Field.Grass.Endzone.Two.SurfaceGui.TextLabel
 local endZone2Grass = game:GetService("Workspace").Models.Field.Grass.Endzone.Two
- endZoneTwoDecal = Instance.new("Decal",endZone2Grass)
+local endZoneTwoDecal = Instance.new("Decal",endZone2Grass)
 local middleLogo = game:GetService("Workspace").Models.Field.Grass.Normal.Mid.SurfaceGui.ImageLabel
 local fieldLogoPart1 = Instance.new("Part",game:GetService("Workspace"))
 local fieldLogoDecal1 = Instance.new("Decal",fieldLogoPart1)
@@ -43,21 +41,20 @@ if key2 == "v" then
 end
 end)	
 
-endZoneOne.Text = ""
-endZoneTwo.Text = ""
-
 
 -- TEAM ONE ENDZONE COLOR + LOGO
-endZone1Grass.BrickColor = BrickColor.new (Color3.fromHex("#422de2"))
+endZone1Grass.BrickColor = BrickColor.new (Color3.fromHex("#000000"))
 endZoneOneDecal.Face = 1
-endZoneOneDecal.Texture = "rbxassetid://8254124964"
+endZoneOneDecal.Texture = "rbxassetid://8733600287"
+endZone1Grass.SurfaceGui:Destroy()
 
 
 
 -- TEAM Two ENDZONE COLOR + LOGO
-endZone2Grass.BrickColor = BrickColor.new (Color3.fromHex("#005db4"))
+endZone2Grass.BrickColor = BrickColor.new (Color3.fromHex("#422de2"))
 endZoneTwoDecal.Face = 1
-endZoneTwoDecal.Texture = "rbxassetid://8540182515"
+endZoneTwoDecal.Texture = "rbxassetid://8254124964"
+endZone2Grass.SurfaceGui:Destroy()
 
 
 
@@ -71,7 +68,7 @@ fieldLogoPart1.Size = Vector3.new(22, 0.114, 19)
 fieldLogoPart1.Rotation = Vector3.new(0, -90, 0)
 fieldLogoPart1.Transparency = 1
 fieldLogoDecal1.Face = 1
---fieldLogoDecal1.Texture = "rbxassetid://8239467535"
+fieldLogoDecal1.Texture = "http://www.roblox.com/asset/?id=88446771911111"
 
 
 fieldLogoPart2.Position = Vector3.new(62, 3.107, 75)
@@ -80,7 +77,7 @@ fieldLogoPart2.Size = Vector3.new(22, 0.114, 19)
 fieldLogoPart2.Rotation = Vector3.new(0, -90, 0)
 fieldLogoPart2.Transparency = 1
 fieldLogoDecal2.Face = 1
---fieldLogoDecal2.Texture = "rbxassetid://8239467535"
+fieldLogoDecal2.Texture = "http://www.roblox.com/asset/?id=88446771911111"
 
 
 
@@ -106,23 +103,23 @@ local mainTeamTouchdown
 
 -- TEAM IDLE IMAGE
 local idle1Image = "http://www.roblox.com/asset/?id=8540141824"
-local idle2Image = "rbxassetid://8588185321"
+local idle2Image = "http://www.roblox.com/asset/?id=345807409785670498"
 
 -- TEAM FIRST DOWN SPRITESHEET
 local team1FirstDown = "http://www.roblox.com/asset/?id=8540129070"
-local team2FirstDown = "rbxassetid://8588188176"
+local team2FirstDown = "http://www.roblox.com/asset/?id=345807409785670498"
 
 local team1SecondDown = "http://www.roblox.com/asset/?id=8540136600"
-local team2SecondDown = "rbxassetid://8588190431"
+local team2SecondDown = "http://www.roblox.com/asset/?id=345807409785670498"
 
 local team1ThirdDown = "http://www.roblox.com/asset/?id=8540145996"
-local team2ThirdDown = "rbxassetid://8588193610"
+local team2ThirdDown = "http://www.roblox.com/asset/?id=345807409785670498"
 
 local team1FourthDown = "http://www.roblox.com/asset/?id=8540150324"
-local team2FourthDown = "rbxassetid://8588196412"
+local team2FourthDown = "http://www.roblox.com/asset/?id=345807409785670498"
 
 local team1Touchdown = "http://www.roblox.com/asset/?id=8540158877"
-local team2Touchdown = "rbxassetid://8588199580"
+local team2Touchdown = "http://www.roblox.com/asset/?id=345807409785670498"
 
 
 mainIdleImage = idle1Image
